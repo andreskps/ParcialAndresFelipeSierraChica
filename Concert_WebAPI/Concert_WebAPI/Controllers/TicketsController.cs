@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Concert_WebAPI.DAL;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Concert_WebAPI.Controllers
 {
-    public class TicketsController
-    {
+   
         [Route("api/[controller]")]
         [ApiController]
         public class TicketsController : ControllerBase
@@ -43,5 +44,5 @@ namespace Concert_WebAPI.Controllers
 
 
         }
-    }
+    
 }
