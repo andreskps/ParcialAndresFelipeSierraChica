@@ -1,0 +1,45 @@
+﻿@model Concert_WebAPI.DAL.Entities.Ticket;
+@{
+    ViewData["Title"] = "Validate";
+}
+
+<div class="container-fluid ps-md-0">
+    <div class="row g-0">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image img-fluid"></div>
+        <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-4">Validación de boletas: ¡Accede al concierto con tranquilidad!</h3>
+
+                            <form asp-action="Validate">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <partial name="../Shared/PartialViews/_TicketValidate.cshtml" />
+
+
+                                <div class="form-group">
+                                    <div class="alert-dark text-center">
+                                                                    @ViewBag.Message
+                                    </div>
+                                    <input type="submit" value="Validar" class="btn btn-outline-primary" />
+                   
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

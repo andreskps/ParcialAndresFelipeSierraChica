@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concert_WebAPI", "Concert_WebAPI\Concert_WebAPI.csproj", "{0C4DB784-5F3A-434E-8F23-38FA9B86D8D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPagesAPI", "WebPagesAPI\WebPagesAPI.csproj", "{798B3F9B-3B91-4649-987F-64188867FBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C4DB784-5F3A-434E-8F23-38FA9B86D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4DB784-5F3A-434E-8F23-38FA9B86D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4DB784-5F3A-434E-8F23-38FA9B86D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798B3F9B-3B91-4649-987F-64188867FBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798B3F9B-3B91-4649-987F-64188867FBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798B3F9B-3B91-4649-987F-64188867FBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798B3F9B-3B91-4649-987F-64188867FBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
