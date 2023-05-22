@@ -25,7 +25,7 @@ namespace WebPagesAPI.Controllers
             try
             {
 
-                var url = "https://localhost:7147/api/Tickets/Validate/" + id + "/" + entraceGate;
+                var url = "https://localhost:7184/api/Tickets/Validate/" + id + "/" + entraceGate;
                 var json = await _httpClient.CreateClient().PutAsync(url, null);
                 var result = await json.Content.ReadAsStringAsync();
 
