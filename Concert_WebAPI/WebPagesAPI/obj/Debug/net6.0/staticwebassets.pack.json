@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ANDRES FELIPE SIERRA\\Desktop\\ParcialAPI\\Concert_WebAPI\\WebPagesAPI\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
       "Id": "C:\\Users\\ANDRES FELIPE SIERRA\\Desktop\\ParcialAPI\\Concert_WebAPI\\WebPagesAPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
